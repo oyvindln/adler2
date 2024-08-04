@@ -1,5 +1,7 @@
 # Adler-32 checksums for Rust
 
+This is a fork of the adler crate as the [original](https://github.com/jonas-schievink/adler) has been archived and is no longer updated by it's author
+
 [![crates.io](https://img.shields.io/crates/v/adler.svg)](https://crates.io/crates/adler)
 [![docs.rs](https://docs.rs/adler/badge.svg)](https://docs.rs/adler/)
 ![CI](https://github.com/jonas-schievink/adler/workflows/CI/badge.svg)
@@ -24,7 +26,7 @@ Add an entry to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-adler = "1.0.2"
+adler2 = "1.0.2"
 ```
 
 Check the [API Documentation](https://docs.rs/adler/) for how to use the
