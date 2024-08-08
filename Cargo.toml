@@ -22,7 +22,9 @@ core = { version = '1.0.0', optional = true, package = 'rustc-std-workspace-core
 compiler_builtins = { version = '0.1.2', optional = true }
 
 [dev-dependencies]
-criterion = "0.3.2"
+## Messes with minimum rust version and drags in deps just for running tests
+## so just comment out for now and enable manually when needed for enabling benches
+## criterion = "0.3.2"
 
 [features]
 # Disable default features to enable `#![no_std]` support.
