@@ -28,7 +28,7 @@ Add an entry to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-adler2 = "2.0.0"
+adler2 = "2.0.1"
 ```
 
 Check the [API documentation](https://docs.rs/adler2) for how to use the crate's
