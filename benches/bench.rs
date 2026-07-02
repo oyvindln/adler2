@@ -1,8 +1,8 @@
 extern crate adler2;
 extern crate criterion;
 
-use adler2::{adler32_slice, Adler32};
-use criterion::{criterion_group, criterion_main, Criterion, Throughput};
+use adler2::{Adler32, adler32_slice};
+use criterion::{Criterion, Throughput, criterion_group, criterion_main};
 
 fn simple(c: &mut Criterion) {
     {

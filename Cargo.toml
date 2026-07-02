@@ -9,7 +9,7 @@ keywords = ["checksum", "integrity", "hash", "adler32", "zlib"]
 categories = ["algorithms"]
 readme = "README.md"
 license = "0BSD OR MIT OR Apache-2.0"
-edition = "2021"
+edition = "2024"
 exclude = [".*"]
 
 [[bench]]
